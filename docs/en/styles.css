@@ -1,0 +1,9 @@
+/* css styles */
+
+/* github issue hide */
+.nav-footer .toc-actions {
+    font-size: 0;
+    color: #ecf2ff;
+    padding-bottom: 0;
+    padding-top: 0;
+}
