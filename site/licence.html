@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr" xml:lang="fr"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.4.554">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>shamayim</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "Pas de résultats",
+    "search-matching-documents-text": "documents trouvés",
+    "search-copy-link-title": "Copier le lien vers la recherche",
+    "search-hide-matches-text": "Cacher les correspondances additionnelles",
+    "search-more-match-text": "correspondance de plus dans ce document",
+    "search-more-matches-text": "correspondances de plus dans ce document",
+    "search-clear-button-title": "Effacer",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Annuler",
+    "search-submit-button-title": "Envoyer",
+    "search-label": "Recherche"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./shamayim_icon.svg" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">shamayim</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Recherche"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Basculer la navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./blog.html"> 
+<span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./livre.html"> 
+<span class="menu-text">Livre</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="https://chat.whatsapp.com/D5ApwJlNZuE0bn3nnlbXok"> <i class="bi bi-box2-heart" role="img">
+</i> 
+<span class="menu-text">Dons</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+          <div class="quarto-navbar-tools">
+  <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Basculer le mode sombre"><i class="bi"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#attribution---utilisation-non-commerciale---partage-dans-les-mêmes-conditions-4.0-international" id="toc-attribution---utilisation-non-commerciale---partage-dans-les-mêmes-conditions-4.0-international" class="nav-link active" data-scroll-target="#attribution---utilisation-non-commerciale---partage-dans-les-mêmes-conditions-4.0-international"><strong>Attribution - Utilisation non commerciale - Partage dans les mêmes conditions 4.0 International</strong></a>
+  <ul class="collapse">
+  <li><a href="#licence-publique-creative-commons-attribution---utilisation-non-commerciale---partage-dans-les-mêmes-conditions-4.0-international" id="toc-licence-publique-creative-commons-attribution---utilisation-non-commerciale---partage-dans-les-mêmes-conditions-4.0-international" class="nav-link" data-scroll-target="#licence-publique-creative-commons-attribution---utilisation-non-commerciale---partage-dans-les-mêmes-conditions-4.0-international"><strong>Licence publique Creative Commons Attribution - Utilisation non commerciale - Partage dans les mêmes conditions 4.0 International</strong></a>
+  <ul class="collapse">
+  <li><a href="#article-1---définitions." id="toc-article-1---définitions." class="nav-link" data-scroll-target="#article-1---définitions."><strong>Article 1 - Définitions.</strong></a></li>
+  <li><a href="#article-2---champ-dapplication-de-la-présente-licence-publique." id="toc-article-2---champ-dapplication-de-la-présente-licence-publique." class="nav-link" data-scroll-target="#article-2---champ-dapplication-de-la-présente-licence-publique."><strong>Article 2 - Champ d’application de la présente Licence publique.</strong></a></li>
+  <li><a href="#article-3-conditions-dutilisation-de-la-présente-licence-publique." id="toc-article-3-conditions-dutilisation-de-la-présente-licence-publique." class="nav-link" data-scroll-target="#article-3-conditions-dutilisation-de-la-présente-licence-publique."><strong>Article 3 – Conditions d’utilisation de la présente Licence publique.</strong></a></li>
+  <li><a href="#article-4-le-droit-sui-generis-des-producteurs-de-bases-de-données." id="toc-article-4-le-droit-sui-generis-des-producteurs-de-bases-de-données." class="nav-link" data-scroll-target="#article-4-le-droit-sui-generis-des-producteurs-de-bases-de-données."><strong>Article 4 – Le Droit sui generis des producteurs de bases de données.</strong></a></li>
+  <li><a href="#article-5-limitations-de-garantie-et-exclusions-de-responsabilité." id="toc-article-5-limitations-de-garantie-et-exclusions-de-responsabilité." class="nav-link" data-scroll-target="#article-5-limitations-de-garantie-et-exclusions-de-responsabilité."><strong>Article 5 – Limitations de garantie et exclusions de responsabilité.</strong></a></li>
+  <li><a href="#article-6-durée-et-fin." id="toc-article-6-durée-et-fin." class="nav-link" data-scroll-target="#article-6-durée-et-fin."><strong>Article 6 – Durée et fin.</strong></a></li>
+  <li><a href="#article-7-autres-termes-et-conditions." id="toc-article-7-autres-termes-et-conditions." class="nav-link" data-scroll-target="#article-7-autres-termes-et-conditions."><strong>Article 7 – Autres termes et conditions.</strong></a></li>
+  <li><a href="#article-8-interprétation." id="toc-article-8-interprétation." class="nav-link" data-scroll-target="#article-8-interprétation."><strong>Article 8 – Interprétation.</strong></a></li>
+  </ul></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+
+<section id="attribution---utilisation-non-commerciale---partage-dans-les-mêmes-conditions-4.0-international" class="level1">
+<h1><strong>Attribution - Utilisation non commerciale - Partage dans les mêmes conditions 4.0 International</strong></h1>
+<p>Creative Commons Corporation (« Creative Commons ») n’est pas un cabinet d’avocats et ne donne ni services ni conseils juridiques. La mise à disposition des licences publiques Creative Commons ne crée pas de rapport analogue à celui d’un client avec son conseil­ ni aucun autre type de relation juridique. Creative Commons propose ses licences et les informations qui y sont associées telles quelles, sans aucune garantie relative à ses licences, aux œuvres mises à disposition conformément aux termes et conditions d’utilisation de ses licences, ou à toute autre information afférente. Creative Commons décline formellement toute responsabilité quant aux préjudices pouvant résulter de leur utilisation.</p>
+<p><strong>Utilisation des licences publiques Creative Commons</strong></p>
+<p>Les licences publiques Creative Commons proposent des termes et conditions d’utilisation standardisés que les auteurs et autres titulaires de droits peuvent utiliser pour partager une œuvre originale ou toute autre œuvre protégée par le droit d’auteur et certains autres droits précisés dans la licence publique ci-dessous. Les avertissements suivants sont indiqués à titre informatif uniquement ; ils ne sont pas exhaustifs et ne font pas partie de nos licences.</p>
+<ul>
+<li><p><strong>Avertissements à l’attention des donneurs de licence :</strong>&nbsp;Nos licences publiques sont conçues pour être utilisées par les auteurs et titulaires de droits dans la limite des lois et règlements en vigueur. Nos licences sont irrévocables. Les donneurs de licence doivent lire et comprendre les termes et conditions de la licence qu’ils choisissent avant de l’utiliser. Les donneurs de licence doivent également obtenir tous les droits nécessaires avant d’utiliser nos licences de façon à ce que le public puisse utiliser l’œuvre comme prévu. Les donneurs de licence doivent clairement indiquer quelle œuvre n’est pas soumise à la licence. Cela comprend les œuvres soumises à d’autres licences Creative Commons et les œuvres utilisées aux termes d’une exception ou d’une limitation du droit d’auteur.&nbsp;<a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensors">Autres avertissements à l’attention des donneurs de licence.</a></p></li>
+<li><p><strong>Avertissements à l’attention du public :</strong>&nbsp;Le donneur de licence qui utilise l’une de nos licences publiques accorde au public l’autorisation d’utiliser l’œuvre aux termes et conditions précisés dans la licence. Si l’autorisation du donneur de licence n’est pas nécessaire pour quelque raison que ce soit (en raison, par exemple, d’une exception ou d’une limitation applicable au droit d’auteur), cette utilisation n’est pas soumise aux termes et conditions d’utilisation de la licence. Nos licences accordent uniquement des autorisations en vertu du droit d’auteur et de certains autres droits qu’un donneur de licence a le droit d’accorder. L’utilisation de l’œuvre peut néanmoins être restreint pour d’autres raisons, par exemple, si d’autres personnes détiennent un droit d’auteur ou d’autres droits sur l’œuvre. Un donneur de licence peut formuler des demandes particulières, comme notamment que toute modification soit indiquée ou décrite. Même si cela n’est pas rendu obligatoire par nos licences, nous vous invitons à honorer ces demandes dans la mesure du possible.&nbsp;<a href="https://wiki.creativecommons.org/wiki/Considerations_for_licensors_and_licensees#Considerations_for_licensees">Autres avertissements à l’attention du public.</a></p></li>
+</ul>
+<section id="licence-publique-creative-commons-attribution---utilisation-non-commerciale---partage-dans-les-mêmes-conditions-4.0-international" class="level2">
+<h2 class="anchored" data-anchor-id="licence-publique-creative-commons-attribution---utilisation-non-commerciale---partage-dans-les-mêmes-conditions-4.0-international"><strong>Licence publique Creative Commons Attribution - Utilisation non commerciale - Partage dans les mêmes conditions 4.0 International</strong></h2>
+<p>Lorsque Vous exercez les Droits accordés par la licence (définis ci-dessous), Vous acceptez d’être lié par les termes et conditions de la présente Licence publique Creative Commons Attribution - Utilisation non commerciale - Partage dans les mêmes conditions 4.0 International (la « Licence publique »). Dans la mesure où la présente Licence publique peut être interprétée comme un contrat, Vous bénéficiez des Droits accordés par la licence en contrepartie de Votre acceptation des présents termes et conditions, et le Donneur de licence Vous accorde ces droits en contrepartie des avantages que lui procure le fait de mettre à disposition l’Œuvre sous licence en vertu des présents termes et conditions.</p>
+<section id="article-1---définitions." class="level3">
+<h3 class="anchored" data-anchor-id="article-1---définitions."><strong>Article 1 - Définitions.</strong></h3>
+<ol type="a">
+<li><p><strong>Œuvre dérivée</strong>&nbsp;signifie œuvre protégée par les Droit d’auteur et droits connexes, dérivée ou adaptée de l’Œuvre sous licence et dans laquelle l’Œuvre sous licence est traduite, retouchée, arrangée, transformée, ou modifiée de telle façon que l’autorisation du Donneur de licence est nécessaire, conformément aux dispositions des Droit d’auteur et droits connexes. Dans le cas de la présente Licence publique, lorsque l’Œuvre sous licence est une œuvre musicale, une représentation publique ou un enregistrement sonore, la synchronisation de l’Œuvre sous licence avec une image animée sera considérée comme une Œuvre dérivée aux fins de la présente Licence publique.</p></li>
+<li><p><strong>Licence d’Œuvre dérivée</strong>&nbsp;signifie licence par laquelle Vous accordez Vos Droit d’auteur et droits connexes portant sur Vos contributions à l’Œuvre dérivée, selon les termes et conditions de la présente Licence publique.</p></li>
+<li><p><strong>Licence compatible BY-NC-SA</strong>&nbsp;signifie licence figurant à l’adresse suivante&nbsp;<a href="https://creativecommons.org/share-your-work/licensing-considerations/compatible-licenses">creativecommons.org/compatiblelicenses</a>, approuvée par Creative Commons comme étant essentiellement équivalente à la présente Licence publique.</p></li>
+<li><p><strong>Droit d’auteur et droits connexes</strong>&nbsp;signifie droit d’auteur et/ou droits connexes incluant, notamment, la représentation, la radio et télédiffusion, l’enregistrement sonore et le Droit sui generis des producteurs de bases de données, quelle que soit la classification ou qualification juridique de ces droits. Dans le cadre de la présente Licence publique, les droits visés à l’Article 2(b)(1)-(2) ne relèvent ni du Droit d’auteur ni de droits connexes.</p></li>
+<li><p><strong>Mesures techniques efficaces</strong>&nbsp;signifie mesures techniques qui, en l’absence d’autorisation expresse, ne peuvent être contournées dans le cadre de lois conformes aux dispositions de l’Article 11 du Traité de l’OMPI sur le droit d’auteur adopté le 20 Décembre 1996 et/ou d’accords internationaux de même objet.</p></li>
+<li><p><strong>Exceptions et limitations</strong>&nbsp;signifie utilisation loyale et équitable (fair use et fair dealing) et/ou toute autre exception ou limitation applicable à Votre utilisation de l’Œuvre sous licence.</p></li>
+<li><p><strong>Eléments de licence</strong>signifie les composantes de la licence figurant dans l’intitulé de la Licence publique Creative Commons. Les éléments de la présente Licence publique sont : Attribution, Utilisation non commerciale et Partage dans les mêmes conditions.</p></li>
+<li><p><strong>Œuvre sous licence</strong>&nbsp;signifie œuvre littéraire ou artistique, base de données ou toute autre œuvre pour laquelle le Donneur de licence a recours à la présente Licence publique.</p></li>
+<li><p><strong>Droits accordés par la licence</strong>&nbsp;ignifie droits qui Vous sont accordés selon les termes et conditions d’utilisation définis par la présente Licence publique, limités aux Droit d’auteur et droits connexes applicables à Votre utilisation de l’Œuvre sous licence et que le Donneur de licence a le droit d’accorder.</p></li>
+<li><p><strong>Donneur de licence</strong>&nbsp;signifie un individu ou une entité octroyant la présente Licence publique et les droits accordés par elle.</p></li>
+<li><p><strong>Utilisation non commerciale</strong>&nbsp;signifie que l’utilisation n’a pas principalement pour but ou pour objectif d’obtenir un avantage commercial ou une compensation financière. L’échange de l’Œuvre sous licence avec d’autres œuvres soumises aux Droit d’auteur et droits connexes par voie de partage de fichiers numériques ou autres moyens analogues constitue une Utilisation non commerciale à condition qu’il n’y ait aucun avantage commercial ni aucune compensation financière en relation avec la transaction.</p></li>
+<li><p><strong>Partager</strong>&nbsp;signifie mettre une œuvre à la disposition du public par tout moyen ou procédé qui requiert l’autorisation découlant des Droits accordés par la licence, tels que les droits de reproduction, de représentation au public, de distribution, de diffusion, de communication ou d’importation, y compris de manière à ce que chacun puisse y avoir accès de l’endroit et au moment qu’il choisit individuellement.</p></li>
+<li><p><strong>Droit sui generis des producteurs de bases de données</strong>&nbsp;signifie droits distincts du droit d’auteur résultant de la Directive 96/9/CE du Parlement européen et du Conseil du 11 mars 1996 sur la protection juridique des bases de données, ainsi que tout autre droit de nature équivalente dans le monde.</p></li>
+<li><p><strong>Vous</strong>&nbsp;(preneur de licence) se rapporte à tout individu ou entité exerçant les Droits accordés par la licence.&nbsp;<strong>Votre</strong>&nbsp;et&nbsp;<strong>Vos</strong>&nbsp;renvoient également au preneur de licence.</p></li>
+</ol>
+</section>
+<section id="article-2---champ-dapplication-de-la-présente-licence-publique." class="level3">
+<h3 class="anchored" data-anchor-id="article-2---champ-dapplication-de-la-présente-licence-publique."><strong>Article 2 - Champ d’application de la présente Licence publique.</strong></h3>
+<ol type="a">
+<li><p><strong><em>octroi de la licence.</em></strong></p>
+<ol type="1">
+<li><p>Sous réserve du respect des termes et conditions d’utilisation de la présente Licence publique, le Donneur de licence Vous autorise à exercer pour le monde entier, à titre gratuit, non sous-licenciable, non exclusif, irrévocable, les Droits accordés par la licence afin de :</p>
+<p>A. reproduire et Partager l’Œuvre sous licence, en tout ou partie, seulement pour une Utilisation non commerciale ; et</p>
+<p>B. produire, reproduire et Partager l’Œuvre dérivée seulement pour une Utilisation non commerciale.</p></li>
+<li><p><strong>Exceptions et limitations.</strong>&nbsp;Afin de lever toute ambiguïté, lorsque les Exceptions et limitations s’appliquent à Votre utilisation, la présente Licence publique ne s’applique pas et Vous n’avez pas à Vous conformer à ses termes et conditions.</p></li>
+<li><p><strong>Durée.</strong>&nbsp;La durée de la présente Licence publique est définie à l’Article 6(a).</p></li>
+<li><p><strong>Supports et formats : modifications techniques autorisées.</strong>&nbsp;Le Donneur de licence Vous autorise à exercer les Droits accordés par la licence sur tous les supports et formats connus ou encore inconnus à ce jour, et à apporter toutes les modifications techniques que ceux-ci requièrent. Le Donneur de licence renonce et/ou accepte de ne pas exercer ses droits qui pourraient être susceptibles de Vous empêcher d’apporter les modifications techniques nécessaires pour exercer les Droits accordés par la licence, y compris celles nécessaires au contournement des Mesures techniques efficaces. Dans le cadre de la présente Licence publique, le fait de ne procéder qu’à de simples modifications techniques autorisées selon les termes du présent Article 2(a)(4) n’est jamais de nature à créer une Œuvre dérivée.</p></li>
+<li><p><strong>Utilisateurs en aval.</strong></p>
+<p>A.&nbsp;<strong>Offre du Donneur de licence – Œuvre sous licence.</strong>&nbsp;Chaque utilisateur de l’Œuvre sous licence reçoit automatiquement une offre de la part du Donneur de licence lui permettant d’exercer les Droits accordés par la licence selon les termes et conditions de la présente Licence publique.</p>
+<p>B.&nbsp;<strong>Offre additionnelle du Donneur de licence – Œuvre dérivée.</strong>&nbsp;Chaque utilisateur d’une Œuvre dérivée reçoit automatiquement une offre du Donneur de licence lui permettant d’exercer les Droits accordés par la licence sur l’Œuvre dérivée selon les termes et conditions de la Licence d’Œuvre dérivée que Vous appliquez.</p>
+<p>C.&nbsp;<strong>Pas de restrictions en aval pour les utilisateurs suivants.</strong>&nbsp;Vous ne pouvez proposer ou imposer des termes et conditions supplémentaires ou différents, ou appliquer quelque Mesure technique efficace que ce soit à l’Œuvre sous licence si ceux(celles)-ci sont de nature à restreindre l’exercice des Droits accordés par la licence aux utilisateurs de l’Œuvre sous licence.</p></li>
+<li><p><strong>Non approbation.</strong>&nbsp;Aucun élément de la présente Licence publique ne peut être interprété comme laissant supposer que le preneur de licence ou que l’utilisation qu’il fait de l’Œuvre sous licence est lié à, parrainé, approuvé, ou doté d’un statut officiel par le Donneur de licence ou par toute autre personne à qui revient l’attribution de l’Œuvre sous licence, comme indiqué à l’Article 3(a)(1)(A)(i).</p></li>
+</ol></li>
+<li><p><strong><em>Autres droits.</em></strong></p>
+<ol type="1">
+<li><p>Les droits moraux, tel que le droit à l’intégrité de l’œuvre, ne sont pas accordés par la présente Licence publique, ni le droit à l’image, ni le droit au respect de la vie privée, ni aucun autre droit de la personnalité ou apparenté ; cependant, dans la mesure du possible, le Donneur de licence renonce et/ou accepte de ne pas faire valoir les droits qu’il détient de manière à Vous permettre d’exercer les Droits accordés par la licence.</p></li>
+<li><p>Le droit des brevets et le droit des marques ne sont pas concernés par la présente Licence publique.</p></li>
+<li><p>Dans la mesure du possible, le Donneur de licence renonce au droit de collecter des redevances auprès de Vous pour l’exercice des Droits accordés par la licence, directement ou indirectement dans le cadre d’un régime de gestion collective facultative ou obligatoire assorti de possibilités de renonciation quel que soit le type d’accord ou de licence. Dans tous les autres cas, le Donneur de licence se réserve expressément le droit de collecter de telles redevances, y compris en dehors des cas d’Utilisation non commerciale de l’Œuvre sous licence.</p></li>
+</ol></li>
+</ol>
+</section>
+<section id="article-3-conditions-dutilisation-de-la-présente-licence-publique." class="level3">
+<h3 class="anchored" data-anchor-id="article-3-conditions-dutilisation-de-la-présente-licence-publique."><strong>Article 3 – Conditions d’utilisation de la présente Licence publique.</strong></h3>
+<p>L’exercice des Droits accordés par la licence est expressément soumis aux conditions suivantes.</p>
+<ol type="a">
+<li><p><strong><em>Attribution.</em></strong></p>
+<ol type="1">
+<li><p>Si Vous partagez l’Œuvre sous licence (y compris sous une forme modifiée), Vous devez :</p>
+<p>A. conserver les informations suivantes lorsqu’elles sont fournies par le Donneur de licence avec l’Œuvre sous licence :</p>
+<ol type="i">
+<li><p>identification du(des) auteur(s) de l’Œuvre sous licence et de toute personne à qui revient l’attribution de l’Œuvre sous licence, dans la mesure du possible, conformément à la demande du Donneur de licence (y compris sous la forme d’un pseudonyme s’il est indiqué) ;</p></li>
+<li><p>l’indication de l’existence d’un droit d’auteur ;</p></li>
+<li><p>une notice faisant référence à la présente Licence publique ;</p></li>
+<li><p>une notice faisant référence aux limitations de garantie et exclusions de responsabilité ;</p></li>
+<li><p>un URI ou un hyperlien vers l’Œuvre sous licence dans la mesure du possible ;</p></li>
+</ol>
+<p>B. Indiquer si Vous avez modifié l’Œuvre sous licence et conserver un suivi des modifications précédentes ; et</p>
+<p>C. Indiquer si l’Œuvre sous licence est mise à disposition en vertu de la présente Licence publique en incluant le texte, l’URI ou l’hyperlien correspondant à la présente Licence publique.</p></li>
+<li><p>Vous pouvez satisfaire aux conditions de l’Article 3(a)(1) dans toute la mesure du possible, en fonction des supports, moyens et contextes dans lesquels Vous Partagez l’Œuvre sous licence. Par exemple, Vous pouvez satisfaire aux conditions susmentionnées en fournissant l’URI ou l’hyperlien vers la ressource incluant les informations requises.</p></li>
+<li><p>Bien que requises aux termes de l’Article 3(a)(1)(A), certaines informations devront être retirées, dans la mesure du possible, si le Donneur de licence en fait la demande.</p></li>
+</ol></li>
+<li><p><strong><em>Partage dans les mêmes conditions.</em></strong></p></li>
+</ol>
+<p>Outre les conditions indiquées à l’Article 3(a), si Vous Partagez une Œuvre dérivée que Vous avez réalisée, les conditions suivantes s’appliquent aussi.</p>
+<ol type="1">
+<li><p>La Licence d’Œuvre dérivée que Vous appliquez doit être une licence Creative Commons avec les mêmes Eléments de licence, qu’il s’agisse de cette version ou d’une version ultérieure, ou une Licence compatible BY-NC-SA.</p></li>
+<li><p>Vous devez inclure le texte, l’URI ou l’hyperlien correspondant à la Licence d’Œuvre dérivée que Vous appliquez. Ces conditions peuvent être satisfaites dans la mesure du raisonnable suivant les supports, moyens et contextes via lesquels Vous Partagez l’Œuvre dérivée.</p></li>
+<li><p>Vous ne pouvez pas proposer ou imposer des termes ou des conditions supplémentaires ou différents ou appliquer des Mesures techniques efficaces à l’Œuvre dérivée qui seraient de nature à restreindre l’exercice des Droits accordés par la Licence d’Œuvre dérivée que Vous appliquez.</p></li>
+</ol>
+</section>
+<section id="article-4-le-droit-sui-generis-des-producteurs-de-bases-de-données." class="level3">
+<h3 class="anchored" data-anchor-id="article-4-le-droit-sui-generis-des-producteurs-de-bases-de-données."><strong>Article 4 – Le Droit sui generis des producteurs de bases de données.</strong></h3>
+<p>Lorsque les Droits accordés par la licence incluent le Droit sui generis des producteurs de bases de données applicable à Votre utilisation de l’Œuvre sous licence :</p>
+<ol type="a">
+<li><p>afin de lever toute ambiguïté, l’Article 2(a)(1) Vous accorde le droit d’extraire, réutiliser, reproduire et Partager la totalité ou une partie substantielle du contenu de la base de données uniquement pour une Utilisation non commerciale ;</p></li>
+<li><p>si Vous incluez la totalité ou une partie substantielle du contenu de la base de données dans une base de données pour laquelle Vous détenez un Droit sui generis de producteur de bases de données, la base de données sur laquelle Vous détenez un tel droit (mais pas ses contenus individuels) sera alors considérée comme une Œuvre dérivée, y compris pour l’application de l’Article 3(b) ; et</p></li>
+<li><p>Vous devez respecter les conditions de l’Article 3(a) si Vous Partagez la totalité ou une partie substantielle du contenu des bases de données.</p></li>
+</ol>
+<p>Afin de lever toute ambiguïté, le présent Article 4 complète mais ne remplace pas Vos obligations découlant des termes de la présente Licence publique lorsque les Droits accordés par la licence incluent d’autres Droit d’auteur et droits connexes.</p>
+</section>
+<section id="article-5-limitations-de-garantie-et-exclusions-de-responsabilité." class="level3">
+<h3 class="anchored" data-anchor-id="article-5-limitations-de-garantie-et-exclusions-de-responsabilité."><strong>Article 5 – Limitations de garantie et exclusions de responsabilité.</strong></h3>
+<ol type="a">
+<li><p><strong>Sauf indication contraire et dans la mesure du possible, le Donneur de licence met à disposition l’Œuvre sous licence telle quelle, et n’offre aucune garantie de quelque sorte que ce soit, notamment expresse, implicite, statutaire ou autre la concernant. Cela inclut, notamment, les garanties liées au titre, à la valeur marchande, à la compatibilité de certaines utilisations particulières, à l’absence de violation, à l’absence de vices cachés ou autres défauts, à l’exactitude, à la présence ou à l’absence d’erreurs connues ou non ou susceptibles d’être découvertes dans l’Œuvre sous licence. Lorsqu’une limitation de garantie n’est pas autorisée en tout ou partie, cette clause peut ne pas Vous être applicable.</strong></p></li>
+<li><p><strong>Dans la mesure du possible, le Donneur de licence ne saurait voir sa responsabilité engagée vis-à-vis de Vous, quel qu’en soit le fondement juridique (y compris, notamment, la négligence), pour tout préjudice direct, spécial, indirect, incident, conséquentiel, punitif, exemplaire, ou pour toutes pertes, coûts, dépenses ou tout dommage découlant de l’utilisation de la présente Licence publique ou de l’utilisation de l’Œuvre sous licence, même si le Donneur de licence avait connaissance de l’éventualité de telles pertes, coûts, dépenses ou dommages. Lorsqu’une exclusion de responsabilité n’est pas autorisée en tout ou partie, cette clause peut ne pas Vous être applicable.</strong></p></li>
+<li><p>Les limitations de garantie et exclusions de responsabilité ci-dessus doivent être interprétées, dans la mesure du possible, comme des limitations et renonciations totales de toute responsabilité.</p></li>
+</ol>
+</section>
+<section id="article-6-durée-et-fin." class="level3">
+<h3 class="anchored" data-anchor-id="article-6-durée-et-fin."><strong>Article 6 – Durée et fin.</strong></h3>
+<ol type="a">
+<li><p>La présente Licence publique s’applique pendant toute la durée de validité des Droits accordés par la licence. Cependant, si Vous manquez à Vos obligations prévues par la présente Licence publique, Vos droits accordés par la présente Licence publique seront automatiquement révoqués.</p></li>
+<li><p>Lorsque les Droits accordés par la licence ont été révoqués selon les termes de l’Article 6(a), ils seront rétablis :</p>
+<ol type="1">
+<li><p>automatiquement, à compter du jour où la violation aura cessé, à condition que Vous y remédiiez dans les 30 jours suivant la date à laquelle Vous aurez eu connaissance de la violation ; ou</p></li>
+<li><p>à condition que le Donneur de licence l’autorise expressément.</p></li>
+</ol>
+<p>Afin de lever toute ambiguïté, le présent Article 6(b) n’affecte pas le droit du Donneur de licence de demander réparation dans les cas de violation de la présente Licence publique.</p></li>
+<li><p>Afin de lever toute ambiguïté, le Donneur de licence peut également proposer l’Œuvre sous licence selon d’autres termes et conditions et peut cesser la mise à disposition de l’Œuvre sous licence à tout moment ; une telle cessation n’entraîne pas la fin de la présente Licence publique.</p></li>
+<li><p>Les Articles 1, 5, 6, 7, et 8 continueront à s’appliquer même après la résiliation de la présente Licence publique.</p></li>
+</ol>
+</section>
+<section id="article-7-autres-termes-et-conditions." class="level3">
+<h3 class="anchored" data-anchor-id="article-7-autres-termes-et-conditions."><strong>Article 7 – Autres termes et conditions.</strong></h3>
+<ol type="a">
+<li><p>Sauf accord exprès, le Donneur de licence n’est lié par aucune modification des termes de Votre part.</p></li>
+<li><p>Tous arrangements, ententes ou accords relatifs à l’Œuvre sous licence non mentionnés dans la présente Licence publique sont séparés et indépendants des termes et conditions de la présente Licence publique.</p></li>
+</ol>
+</section>
+<section id="article-8-interprétation." class="level3">
+<h3 class="anchored" data-anchor-id="article-8-interprétation."><strong>Article 8 – Interprétation.</strong></h3>
+<ol type="a">
+<li><p>Afin de lever toute ambiguïté, la présente Licence publique ne doit en aucun cas être interprétée comme ayant pour effet de réduire, limiter, restreindre ou imposer des conditions plus contraignantes que celles qui sont prévues par les dispositions légales applicables.</p></li>
+<li><p>Dans la mesure du possible, si une clause de la présente Licence publique est déclarée inapplicable, elle sera automatiquement modifiée a minima afin de la rendre applicable. Dans le cas où la clause ne peut être modifiée, elle sera écartée de la présente Licence publique sans préjudice de l’applicabilité des termes et conditions restants.</p></li>
+<li><p>Aucun terme ni aucune condition de la présente Licence publique ne sera écarté(e) et aucune violation ne sera admise sans l’accord exprès du Donneur de licence.</p></li>
+<li><p>Aucun terme ni aucune condition de la présente Licence publique ne constitue ou ne peut être interprété(e) comme une limitation ou une renonciation à un quelconque privilège ou à une immunité s’appliquant au Donneur de licence ou à Vous, y compris lorsque celles-ci émanent d’une procédure légale, quel(le) qu’en soit le système juridique concerné ou l’autorité compétente.</p></li>
+</ol>
+<blockquote class="blockquote">
+<p>Creative Commons n’est pas partie prenante de ses licences publiques. Néanmoins, Creative Commons se réserve le droit d’utiliser une de ses licences publiques pour les œuvres qu’elle publie, et dans ce cas sera considérée comme « Donneur de licence ». Le texte des licences publiques Creative Commons est versé au domaine public en vertu de&nbsp;<a href="https://creativecommons.org/publicdomain/zero/1.0/legalcode.fr">CC0 Domaine Public</a>. A l’exception des seuls cas où il est indiqué que l’œuvre est mise à disposition sous licence publique Creative Commons et ceux autorisés par les statuts de Creative Commons disponibles sur&nbsp;<a href="https://creativecommons.org/policies">creativecommons.org/policies</a>, Creative Commons n’autorise l’utilisation par aucune partie de la marque “Creative Commons” ou de toute autre marque ou logo de Creative Commons sans le consentement écrit préalable de Creative Commons. Cette restriction relative à l’utilisation des marques ne constitue pas une partie de nos licences publiques.</p>
+<p>Vous pouvez joindre Creative Commons via&nbsp;<a href="https://creativecommons.org/">creativecommons.org.</a></p>
+</blockquote>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleGiscusIfUsed = (isAlternate, darkModeDefault) => {
+    const baseTheme = document.querySelector('#giscus-base-theme')?.value ?? 'light';
+    const alternateTheme = document.querySelector('#giscus-alt-theme')?.value ?? 'dark';
+    let newTheme = '';
+    if(darkModeDefault) {
+      newTheme = isAlternate ? baseTheme : alternateTheme;
+    } else {
+      newTheme = isAlternate ? alternateTheme : baseTheme;
+    }
+    const changeGiscusTheme = () => {
+      // From: https://github.com/giscus/giscus/issues/336
+      const sendMessage = (message) => {
+        const iframe = document.querySelector('iframe.giscus-frame');
+        if (!iframe) return;
+        iframe.contentWindow.postMessage({ giscus: message }, 'https://giscus.app');
+      }
+      sendMessage({
+        setConfig: {
+          theme: newTheme
+        }
+      });
+    }
+    const isGiscussLoaded = window.document.querySelector('iframe.giscus-frame') !== null;
+    if (isGiscussLoaded) {
+      changeGiscusTheme();
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  const darkModeDefault = false;
+  let localAlternateSentinel = darkModeDefault ? 'alternate' : 'default';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+    toggleGiscusIfUsed(toAlternate, darkModeDefault);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copié");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copié");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./licence.md">
+<p>Licence</p>
+</a>
+  </li>  
+</ul>
+    </div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item compact">
+    <a class="nav-link" href="./www.youtube.com/@Christocentrik">
+      <i class="bi bi-youtube" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://chat.whatsapp.com/D5ApwJlNZuE0bn3nnlbXok">
+      <i class="bi bi-whatsapp" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://web.facebook.com/Christocentrik/">
+      <i class="bi bi-facebook" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.instagram.com/christo.centrik/">
+      <i class="bi bi-instagram" role="img">
+</i> 
+    </a>
+  </li>  
+    <li class="nav-item compact">
+    <a class="nav-link" href="https://www.tiktok.com/@christocentrik">
+      <i class="bi bi-tiktok" role="img">
+</i> 
+    </a>
+  </li>  
+</ul>
+    </div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="./index.html">
+<p>Version 2.5.16</p>
+</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
