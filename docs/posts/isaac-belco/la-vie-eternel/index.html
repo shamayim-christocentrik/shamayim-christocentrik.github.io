@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Isaac B.">
 
-<title>shamayim</title>
+<title>shamayim - La Vie Éternel</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +24,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle','listing-image','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-7086WRSBYS"></script>
 
 <script type="text/javascript">
@@ -108,52 +78,25 @@ gtag('js', new Date());
 gtag('config', 'G-7086WRSBYS', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="shamayim" href="blog.xml" data-external="1"><meta property="og:title" content="shamayim">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="shamayim - La Vie Éternel">
+<meta property="og:description" content="La vie de l’Éternel">
+<meta property="og:image" content="https://shamayim-christocentrik.github.io/posts/isaac-belco/la-vie-eternel/banner.jpg">
 <meta property="og:site_name" content="shamayim">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./shamayim_icon.svg" alt="" class="navbar-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../shamayim_icon.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">shamayim</span>
     </a>
   </div>
@@ -164,11 +107,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./livre.html"> 
+    <a class="nav-link" href="../../../livre.html"> 
 <span class="menu-text">Livre</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -204,152 +147,123 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">La Vie Éternel</h1>
+            <p class="subtitle lead">La vie de l’Éternel</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Vie</div>
+                <div class="quarto-category">Saint-Esprit</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Auteur·rice</div>
+      <div class="quarto-title-meta-contents">
+               <p>Isaac B. </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Date de publication</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">21 juin 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(3)</span></div><div class="category" data-category="Foi">Foi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Parole">Parole <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Saint-Esprit">Saint-Esprit <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Vie">Vie <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#ce-nest-pas-une-question-de-longueur" id="toc-ce-nest-pas-une-question-de-longueur" class="nav-link active" data-scroll-target="#ce-nest-pas-une-question-de-longueur">Ce n’est pas une question de longueur</a></li>
+  <li><a href="#elle-ne-commence-pas-après-notre-mort" id="toc-elle-ne-commence-pas-après-notre-mort" class="nav-link" data-scroll-target="#elle-ne-commence-pas-après-notre-mort">Elle ne commence pas après notre mort</a></li>
+  <li><a href="#cest-la-conséquence-de-lesprit-éternel-en-nous" id="toc-cest-la-conséquence-de-lesprit-éternel-en-nous" class="nav-link" data-scroll-target="#cest-la-conséquence-de-lesprit-éternel-en-nous"><strong>C’est la conséquence de l’Esprit Éternel en nous</strong></a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
+<div class="cell">
+<style type="text/css">
+p {
+  text-align: justify
+}
+</style>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="banner.jpg" class="img-fluid quarto-figure quarto-figure-center figure-img"></p>
+</figure>
+</div>
+<p>Shalom,</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Jean 3 : 16
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><sup><strong>16</strong></sup> Oui, Dieu a tant aimé le monde qu’il a donné son Fils, son unique, pour que tous ceux qui placent leur confiance en lui échappent à la perdition et qu’ils aient la vie éternelle.</p>
+</div>
+</div>
+<p>Je suis certain que nous connaissons tous ce passage : beaucoup d’entre nous l’ont récité depuis leur plus tendre enfance, l’ont écouté à plusieurs reprises au sein de leur communauté. Mais permettez-moi de le citer à nouveau. Ce passage, je crois, est en effet le résumé de la mission du Christ sur terre et l’espérance de notre vie dans le Christ. Il est donc important de le comprendre. Qu’est-ce que la Vie Éternel ?</p>
+<section id="ce-nest-pas-une-question-de-longueur" class="level1">
+<h1>Ce n’est pas une question de longueur</h1>
+<p>L’expression “vie éternelle” est souvent trompeuse. En effet, elle nous fait d’abord penser à une vie sans fin, une longue vie même après la mort. Mais pourquoi, dans notre Bible, voyons-nous que même ceux qui vont en enfer continuent à “vivre” avec des pleurs et des grincements de dents ? Dans la parabole de l’homme riche et du pauvre Lazare (Luc 16:19-31), nous voyons deux personnes qui continuent à vivre longtemps après la mort. L’homme riche avait-il lui aussi la vie éternelle ? Non ! Cette parabole nous aide à comprendre que ce dont nous parlons ici, c’est de la qualité de la vie.</p>
+<blockquote class="blockquote">
+<p>La vie éternelle n’est pas quantitative, mais qualitative. Elle n’est pas éternelle parce qu’elle est longue, mais parce qu’elle est la vie de l’Éternel, la vie de Dieu. C’est la qualité de vie qu’il a et qu’il veut partager avec nous.</p>
+</blockquote>
+</section>
+<section id="elle-ne-commence-pas-après-notre-mort" class="level1">
+<h1>Elle ne commence pas après notre mort</h1>
+<p>Très souvent, en tant que chrétiens, nous nous laissons bercer par une certaine forme de consolation, en nous disant : “Après la mort, nous hériterons de la vie éternelle”. Bien que cela soit vrai et contribue à notre espérance et à notre foi, il ne faut pas que cela soit l’arbre qui nous empêche de voir la forêt.Quelle est cette forêt ? La forêt, c’est que nous n’avons pas besoin d’attendre d’être morts pour expérimenter la vie de Dieu. En effet, Héb. 6:4-6 nous informe que nous avons la capacité de goûter à la puissance et à la gloire des âges à venir par l’intermédiaire du Saint-Esprit.</p>
+<p>La question que vous me poserez probablement est la suivante : comment cela est-il possible ?</p>
+</section>
+<section id="cest-la-conséquence-de-lesprit-éternel-en-nous" class="level1">
+<h1><strong>C’est la conséquence de l’Esprit Éternel en nous</strong></h1>
+<p>Jésus a pu dire dans Jean 17 : 3</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Jean 17 : 3
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p><sup><strong>3</strong></sup> Or, la vie éternelle consiste à te connaître, toi le Dieu unique et véritable, et celui que tu as envoyé : Jésus-Christ.</p>
+</div>
+</div>
+<p>Il nous dit donc que c’est la conséquence de la connaissance de Dieu. Sauf que cette connaissance est impossible pour l’homme, parce qu’elle n’est pas cérébrale. Il ne s’agit pas de se remplir la tête d’informations sur Dieu. En effet, personne ne connaît le Père si ce n’est le Fils. Le Fils connaît le Père parce que le Fils et le Père sont Un. Ne faire qu’Un avec le Père est la seule façon de le connaître. C’est pourquoi le Père nous a donné son Esprit, qui nous enseigne tout et sonde même les profondeurs du Père.</p>
+<p>Pour faire simple, imaginons que l’homme le plus riche du monde vous offre un accès illimité à l’ensemble de ses comptes bancaires et de ses ressources. Vous pourriez immédiatement expérimenter ce que c’est que de vivre comme l’homme le plus riche du monde. C’est exactement ce que nous obtenons lorsque nous recevons l’Esprit Saint en nous. Nous avons accès aux ressources du Père. Nous pouvons donc en bénéficier.</p>
+<p>Comment utiliser ces ressources, c’est une question pour un autre jour ? D’ici là, Shalom !</p>
 
 
+</section>
 
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Trier par</option>
-       <option value="index" data-direction="asc">Ordre par défaut</option>
-         <option value="listing-title" data-direction="asc">
-          Titre
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Le plus ancien
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Le plus récent
-        </option>
-     </select>
-  </div>
-</div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Vie,Saint-Esprit" data-listing-date-sort="1718924400000" data-listing-file-modified-sort="1718970747335" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="614">
-<a href="./posts/isaac-belco/la-vie-eternel/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/isaac-belco/la-vie-eternel/banner.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-La Vie Éternel
-</h5>
-<div class="card-subtitle listing-subtitle">
-La vie de l’Éternel
-</div>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Vie'); return false;">
-Vie
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Saint-Esprit'); return false;">
-Saint-Esprit
-</div>
-</div>
-<div class="card-text listing-description">
-Shalom,
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-21 juin 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="1" data-categories="Parole,Saint-Esprit" data-listing-date-sort="1718233200000" data-listing-file-modified-sort="1718956361657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="614">
-<a href="./posts/augustin-akakpo/ne-tai-je-pas-dit/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/augustin-akakpo/ne-tai-je-pas-dit/banner.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ne t’ai-je pas dit ?
-</h5>
-<div class="card-subtitle listing-subtitle">
-La Parole de Dieu est notre ressource inépuisable
-</div>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Parole'); return false;">
-Parole
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Saint-Esprit'); return false;">
-Saint-Esprit
-</div>
-</div>
-<div class="card-text listing-description">
-Shalom,
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-13 juin 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Foi" data-listing-date-sort="1717628400000" data-listing-file-modified-sort="1717627861733" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="645">
-<a href="./posts/augustin-akakpo/viens-et-suis-moi/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/augustin-akakpo/viens-et-suis-moi/banner.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Viens et suis-moi
-</h5>
-<div class="card-subtitle listing-subtitle">
-Il faut renoncer à nous-même et le suivre réellement
-</div>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Foi'); return false;">
-Foi
-</div>
-</div>
-<div class="card-text listing-description">
-Shalom,
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-6 juin 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Aucun article correspondant
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -909,7 +823,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./licence.html">
+    <a class="nav-link" href="../../../licence.html">
 <p>Licence</p>
 </a>
   </li>  
@@ -952,7 +866,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../../../index.html">
 <p>V2.5.16</p>
 </a>
   </li>  
