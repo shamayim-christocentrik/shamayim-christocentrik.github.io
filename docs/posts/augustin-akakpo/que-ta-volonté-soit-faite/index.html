@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Augustin A.">
 
-<title>shamayim</title>
+<title>shamayim - Que ta volonté soit faite</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,25 +24,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../../site_libs/bootstrap/bootstrap-dark.min.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,35 +68,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Recherche"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-listing .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-date','listing-title','listing-subtitle','listing-image','listing-reading-time','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-7086WRSBYS"></script>
 
 <script type="text/javascript">
@@ -108,52 +78,25 @@ gtag('js', new Date());
 gtag('config', 'G-7086WRSBYS', { 'anonymize_ip': true});
 </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
-<link rel="alternate" type="application/rss+xml" title="shamayim" href="blog.xml" data-external="1"><meta property="og:title" content="shamayim">
+<link rel="stylesheet" href="../../../styles.css">
+<meta property="og:title" content="shamayim - Que ta volonté soit faite">
+<meta property="og:description" content="Dieu a une volonté pour toi">
+<meta property="og:image" content="https://shamayim-christocentrik.github.io/posts/augustin-akakpo/que-ta-volonté-soit-faite/banner.jpeg">
 <meta property="og:site_name" content="shamayim">
 </head>
 
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="./index.html" class="navbar-brand navbar-brand-logo">
-    <img src="./shamayim_icon.svg" alt="" class="navbar-logo">
+    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../../shamayim_icon.svg" alt="" class="navbar-logo">
     </a>
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">shamayim</span>
     </a>
   </div>
@@ -164,11 +107,11 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./blog.html" aria-current="page"> 
+    <a class="nav-link" href="../../../blog.html"> 
 <span class="menu-text">Blog</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./livre.html"> 
+    <a class="nav-link" href="../../../livre.html"> 
 <span class="menu-text">Livre</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -204,188 +147,138 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Que ta volonté soit faite</h1>
+            <p class="subtitle lead">Dieu a une volonté pour toi</p>
+                                <div class="quarto-categories">
+                <div class="quarto-category">Volonté</div>
+                <div class="quarto-category">Intimité</div>
+              </div>
+                  </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      <div>
+      <div class="quarto-title-meta-heading">Auteur·rice</div>
+      <div class="quarto-title-meta-contents">
+               <p>Augustin A. </p>
+            </div>
+    </div>
+      
+      <div>
+      <div class="quarto-title-meta-heading">Date de publication</div>
+      <div class="quarto-title-meta-contents">
+        <p class="date">27 juin 2024</p>
+      </div>
+    </div>
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
-    <h5 class="quarto-listing-category-title">Catégories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">Tous <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Foi">Foi <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Intimité">Intimité <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Parole">Parole <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Saint-Esprit">Saint-Esprit <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Vie">Vie <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Volonté">Volonté <span class="quarto-category-count">(1)</span></div></div></div>
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Sur cette page</h2>
+   
+  <ul>
+  <li><a href="#dieu-a-une-volonté-pour-toi" id="toc-dieu-a-une-volonté-pour-toi" class="nav-link active" data-scroll-target="#dieu-a-une-volonté-pour-toi"><strong>Dieu a une volonté pour toi</strong></a></li>
+  <li><a href="#cette-volonté-est-elle-cachée" id="toc-cette-volonté-est-elle-cachée" class="nav-link" data-scroll-target="#cette-volonté-est-elle-cachée"><strong>Cette volonté est-elle cachée ?</strong></a></li>
+  <li><a href="#ma-volonté-vs-la-volonté-de-dieu" id="toc-ma-volonté-vs-la-volonté-de-dieu" class="nav-link" data-scroll-target="#ma-volonté-vs-la-volonté-de-dieu"><strong>Ma volonté vs la volonté de Dieu</strong></a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-
-
-
-<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
-<div class="listing-actions-group">
-   <div class="input-group input-group-sm quarto-listing-sort">
-     <span class="input-group-text"><i class="bi bi-sort-down"></i></span>
-     <select id="listing-listing-sort" class="form-select" aria-label="Trier par" onchange="window['quarto-listings']['listing-listing'].sort(this.options[this.selectedIndex].value, { order: this.options[this.selectedIndex].getAttribute('data-direction')})">
-       <option value="" disabled="" selected="" hidden="">Trier par</option>
-       <option value="index" data-direction="asc">Ordre par défaut</option>
-         <option value="listing-title" data-direction="asc">
-          Titre
-        </option>
-         <option value="listing-date-sort" data-direction="asc">
-          Date - Le plus ancien
-        </option>
-         <option value="listing-date-sort" data-direction="desc">
-          Date - Le plus récent
-        </option>
-     </select>
-  </div>
+<div class="cell">
+<style type="text/css">
+p {
+  text-align: justify
+}
+</style>
 </div>
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Volonté,Intimité" data-listing-date-sort="1719442800000" data-listing-file-modified-sort="1719472173428" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="654">
-<a href="./posts/augustin-akakpo/que-ta-volonté-soit-faite/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/augustin-akakpo/que-ta-volonté-soit-faite/banner.jpeg" class="thumbnail-image card-img" style="height: 150px;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="banner.jpeg" class="img-fluid quarto-figure quarto-figure-center figure-img" width="727"></p>
+</figure>
+</div>
+<p>Shalom,</p>
+<p>Supposons que c’est le week-end et vous décidez de sortir avec un ami. Vous voulez aller à la plage mais votre ami préfère le cinéma et vous dit que c’est la seule condition pour sortir avec lui. Que ferez-vous ? Vous accepterez de faire ce qu’il veut sinon vous ne pourrez pas passer le week-end avec lui.</p>
+<p>Tous ceux qui sont en Christ sont appelés « intimes » par Dieu et pour mieux vivre cette intimité avec lui, nous devons faire comme avec cet ami : se soumettre à la volonté de Dieu. C’est pourquoi Jésus nous dit de prier en disant à Dieu :<br>
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Que ta volonté soit faite
-</h5>
-<div class="card-subtitle listing-subtitle">
-Dieu a une volonté pour toi
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
 </div>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Volonté'); return false;">
-Volonté
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Intimité'); return false;">
-Intimité
+<div class="callout-title-container flex-fill">
+Matthieu 6 : 10
 </div>
 </div>
-<div class="card-text listing-description">
-Shalom,
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-27 juin 2024
+<div class="callout-body-container callout-body">
+<p><sup><strong>10</strong></sup> que ton règne vienne; que ta volonté soit faite sur la terre comme au ciel.</p>
 </div>
 </div>
+<section id="dieu-a-une-volonté-pour-toi" class="level1">
+<h1><strong>Dieu a une volonté pour toi</strong></h1>
+<p>Il existe deux volontés de Dieu. La première volonté (Boulema) désigne le dessein de Dieu pour toute l’humanité, exemple : Dieu veut que tous les hommes soient sauvés et parviennent à la connaissance de la vérité (2 Timothée 2 :4). La deuxième volonté (Thelema) désigne ce que Dieu veut pour toi personnellement, ce qu’il souhaite que tu fasses, ce qu’il désire que tu réalises.</p>
+<p>Qui a décidé que Facebook doit porter la couleur bleue ? C’est son créateur (Mark Zuckerberg) parce qu’il estime que cette couleur est mieux pour Facebook. De même, si en Christ, nous sommes une nouvelle création (2 Corinthiens 5 :17), ne pensez-vous pas que notre créateur a une volonté pour chacun de nous ?</p>
+<blockquote class="blockquote">
+<p>Dieu a une volonté pour toi parce qu’il est ton créateur et sait ce qui est mieux pour toi.</p>
+</blockquote>
+</section>
+<section id="cette-volonté-est-elle-cachée" class="level1">
+<h1><strong>Cette volonté est-elle cachée ?</strong></h1>
+<p>Un jour, je tenais dans les mains un bébé qui a commencé à pleurer. Pensant qu’il pleurait à cause de la faim, je lui ai donné son biberon mais il ne se calmait toujours pas. J’ai appelé la sœur du bébé qui a réussi à le calmer en quelques secondes. Elle m’a dit ceci : « Il ne pleurait pas à cause de la faim mais parce que sa couche était sale et j’ai du la changer pour qu’il se calme », elle ajouta : « J’arrive à discerner ce qu’il veut quand il pleure parce que je passe beaucoup de temps avec lui ».</p>
+<p>La volonté de Dieu n’est pas cachée mais on a besoin de discernement pour la connaître. Comme la sœur de ce bébé, nous avons le Saint-Esprit qui connaît la volonté de Dieu et nous la communique.</p>
+<blockquote class="blockquote">
+<p>Tu n’as pas besoin de fournir des efforts pour connaître la volonté de Dieu, tu as juste besoin d’être en communion avec le Saint-Esprit qui te révélera ce que Dieu veut pour toi.</p>
+</blockquote>
+</section>
+<section id="ma-volonté-vs-la-volonté-de-dieu" class="level1">
+<h1><strong>Ma volonté vs la volonté de Dieu</strong></h1>
+<p>Il arrive que nous soyons dérangés par la volonté de Dieu si elle est contraire à notre propre volonté. Et cela arrive généralement lorsque notre volonté est confondue entre désirs (ce que je veux) et nos besoins (ce qu’il me faut). Dieu nous assure de pourvoir à nos besoins avant nos désirs car ce que nous désirons n’est pas forcément ce qu’il nous faut.</p>
+<blockquote class="blockquote">
+<p>Ta volonté s’aligne avec la volonté de Dieu lorsque tu désires ce qu’il te faut réellement.</p>
+</blockquote>
+<p>La volonté de Dieu peut déranger lorsqu’elle te conduit dans une situation inconfortable mais il faut l’accepter car Dieu sait ce qu’il fait et cette situation inconfortable contribuera à ton bien. A l’approche de la mort, Jésus ne voulait plus continuer la mission mais il a dit :</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Luc 22 : 42
 </div>
 </div>
-</a>
+<div class="callout-body-container callout-body">
+<p><sup><strong>42</strong></sup> O Père, si tu le veux, écarte de moi cette coupe! Toutefois, que ta volonté soit faite, et non la mienne.</p>
 </div>
-<div class="g-col-1" data-index="1" data-categories="Vie,Saint-Esprit" data-listing-date-sort="1718924400000" data-listing-file-modified-sort="1718973627743" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="614">
-<a href="./posts/isaac-belco/la-vie-eternelle/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/isaac-belco/la-vie-eternelle/banner.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</div>
+<p>Résultat : Grâce à sa mort, nous sommes sauvés.</p>
+<blockquote class="blockquote">
+<p>Dieu ne nous impose pas sa volonté comme un dictateur mais nous nous soumettons librement à elle car sa volonté est ce qui est bon, agréable et parfait.</p>
+</blockquote>
+<p>Que la volonté de Dieu soit faite dans tous les domaines de nos vies.</p>
+<p>Amen !</p>
+<p><br>
 </p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-La Vie Éternelle
-</h5>
-<div class="card-subtitle listing-subtitle">
-La vie de l’Éternel
-</div>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Vie'); return false;">
-Vie
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Saint-Esprit'); return false;">
-Saint-Esprit
-</div>
-</div>
-<div class="card-text listing-description">
-Shalom,
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-21 juin 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="2" data-categories="Parole,Saint-Esprit" data-listing-date-sort="1718233200000" data-listing-file-modified-sort="1719445577496" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="614">
-<a href="./posts/augustin-akakpo/ne-tai-je-pas-dit/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/augustin-akakpo/ne-tai-je-pas-dit/banner.jpeg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Ne t’ai-je pas dit ?
-</h5>
-<div class="card-subtitle listing-subtitle">
-La Parole de Dieu est notre ressource inépuisable
-</div>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Parole'); return false;">
-Parole
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Saint-Esprit'); return false;">
-Saint-Esprit
-</div>
-</div>
-<div class="card-text listing-description">
-Shalom,
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-13 juin 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-<div class="g-col-1" data-index="3" data-categories="Foi" data-listing-date-sort="1717628400000" data-listing-file-modified-sort="1719445660932" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="644">
-<a href="./posts/augustin-akakpo/viens-et-suis-moi/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./posts/augustin-akakpo/viens-et-suis-moi/banner.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-Viens et suis-moi
-</h5>
-<div class="card-subtitle listing-subtitle">
-Il faut renoncer à nous-même et le suivre réellement
-</div>
-<div class="listing-reading-time card-text text-muted">
-4 min.
-</div>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Foi'); return false;">
-Foi
-</div>
-</div>
-<div class="card-text listing-description">
-Shalom,
-</div>
-<div class="card-attribution card-text-small end">
-<div class="listing-date">
-6 juin 2024
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-Aucun article correspondant
-</div>
-</div></main> <!-- /main -->
+
+
+</section>
+
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -945,7 +838,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./licence.html">
+    <a class="nav-link" href="../../../licence.html">
 <p>Licence</p>
 </a>
   </li>  
@@ -988,7 +881,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item">
-    <a class="nav-link" href="./index.html">
+    <a class="nav-link" href="../../../index.html">
 <p>V2.5.16</p>
 </a>
   </li>  
