@@ -1,7 +1,12 @@
 [
   {
+    "listing": "/livre.html",
+    "items": []
+  },
+  {
     "listing": "/blog.html",
     "items": [
+      "/posts/augustin-akakpo/graine-de-moutarde/index.html",
       "/posts/augustin-akakpo/combien-de-pains/index.html",
       "/posts/micaja-nakoulma/amour-reciproque/index.html",
       "/posts/isaac-belco/le-processus-sanctification/index.html",
@@ -11,9 +16,5 @@
       "/posts/augustin-akakpo/ne-tai-je-pas-dit/index.html",
       "/posts/augustin-akakpo/viens-et-suis-moi/index.html"
     ]
-  },
-  {
-    "listing": "/livre.html",
-    "items": []
   }
 ]
