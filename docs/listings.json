@@ -1,7 +1,12 @@
 [
   {
+    "listing": "/livre.html",
+    "items": []
+  },
+  {
     "listing": "/blog.html",
     "items": [
+      "/posts/micaja-nakoulma/tu-es-utile/index.html",
       "/posts/micaja-nakoulma/n_abandonne_pas/index.html",
       "/posts/augustin-akakpo/graine-de-moutarde/index.html",
       "/posts/augustin-akakpo/combien-de-pains/index.html",
@@ -13,9 +18,5 @@
       "/posts/augustin-akakpo/ne-tai-je-pas-dit/index.html",
       "/posts/augustin-akakpo/viens-et-suis-moi/index.html"
     ]
-  },
-  {
-    "listing": "/livre.html",
-    "items": []
   }
 ]
